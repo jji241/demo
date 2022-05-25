@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:hint="search_iPone13" >
+    <activity android:name=".SearchableActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.app_bar" />
+        </intent-filter>
+        <meta-data android:name="android.app.searchable"
+            android:resource="@xml/searchable"/>
+    </activity>
+</searchable>
